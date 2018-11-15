@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+bruno =  Bot.create(name:'Bruno', url:'www.bruno.com')
+greeting =  Intent.create(name:'Greeting', bot_id:1)
+hello =  Response.create(text:'Hello')
+IntentResponse.create(intent_id:1, response_id:1)
